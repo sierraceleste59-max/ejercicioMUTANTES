@@ -163,7 +163,7 @@ Ir a: http://localhost:8080/h2-console
 **Pass:**
 
 
-# Diagrama de secuencia en: https://docs.google.com/document/d/1t2iURUWNBE_SR4z47Ofqt762xVFTgY2KBxJVj4wZDeM/edit?usp=sharing  
+# Diagrama de secuencia en: https://drive.google.com/file/d/1TdxzuaSUWimfJVyycOKsgWNfMvhZHPbc/view?usp=sharing   
 # Pruebas de la api en: https://drive.google.com/file/d/11rGL1XIouFp80qHwx17EYuVFc-ku6P0t/view?usp=sharing 
 # Autor del Proyecto:
 **Nombre y Apellido: Celeste Sierra**
