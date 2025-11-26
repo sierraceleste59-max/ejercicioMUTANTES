@@ -157,7 +157,7 @@ Para abrir la consola H2 local:
 Levantar la app
 Ir a: http://localhost:8080/h2-console
 
-Configuración:
+- Configuración:
 **JDBC URL: jdbc:h2:mem:testdb**
 **User: sa**
 **Pass:**
