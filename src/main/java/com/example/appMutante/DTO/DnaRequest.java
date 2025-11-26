@@ -8,6 +8,13 @@ import lombok.Data;
 public class DnaRequest {
     @NotNull
     @ValidDna // Validación personalizada
-    @Schema(example = "[\"ATGCGA\",\"CAGTGC\",\"TTATGT\",\"AGAAGG\",\"CCCCTA\",\"TCACTG\"]")
+    @Schema(example = " [\n" +
+            "    \"AAAAGA\",\n" +
+            "    \"CAGTGC\",\n" +
+            "    \"TTATGT\",\n" +
+            "    \"AGAAGG\",\n" +
+            "    \"CACCTA\",\n" +
+            "    \"TCACTG\"\n" +
+            "  ]")
     private String[] dna;
 }

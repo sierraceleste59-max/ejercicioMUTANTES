@@ -3,6 +3,7 @@ package com.example.appMutante.Controllers;
 import com.example.appMutante.DTO.DnaRequest;
 import com.example.appMutante.DTO.StatsResponse;
 import com.example.appMutante.Service.MutantService;
+import com.example.appMutante.Service.StatsService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.*;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -19,6 +20,7 @@ import org.springframework.web.bind.annotation.*;
 public class MutantController {
 
     private final MutantService mutantService;
+    private final StatsService statsService;
 
     @Operation(summary = "Detectar mutante", description = "Retorna 200 si es mutante, 403 si es humano")
     @ApiResponses({
